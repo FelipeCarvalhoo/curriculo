@@ -49,3 +49,12 @@ html,body{
 .contatos-profissionais {
     text-align: center;
 }
+.endereco {
+    display:none;
+}
+@media print {
+    .endereco{ 
+        display: flex;
+        text-align: center;
+    }
+}
